@@ -6,7 +6,7 @@ import os
 import matplotlib.pyplot as plt
 
 URI = 'http://127.0.0.1:5000'
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title('Neural Network Visualizer')
 st.sidebar.markdown('# Input Image')
 
